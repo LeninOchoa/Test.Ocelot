@@ -1,6 +1,6 @@
 using System.Reflection;
 
-namespace Library.Api.Endpoints.Internal;
+namespace Article.Api.Endpoints.Internal;
 
 public static class EndpointExtensions
 {

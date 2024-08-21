@@ -1,4 +1,4 @@
-namespace Library.Api.Endpoints.Internal;
+namespace Article.Api.Endpoints.Internal;
 
 public interface IEndpoints
 {

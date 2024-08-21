@@ -1,8 +1,39 @@
 ﻿
 Microsoft Visual Studio Solution File, Format Version 12.00
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Api.Gateway", "Api.Gateway", "{EA070D8B-B972-4734-81AA-A8440CD44E22}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Article", "Article", "{6508A55B-10A0-42F2-B98A-74601DF80515}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Writer", "Writer", "{C776807D-BB8D-4808-8BD4-CF253576A76C}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Article.Api", "Article.Api\Article.Api.csproj", "{EF5F3165-6D06-4405-8032-44218876B747}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Write.Api", "Write.Api\Write.Api.csproj", "{B6FBD397-5122-4925-9ACC-500422A6B2BE}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "OcelotApiGateway", "OcelotApiGateway\OcelotApiGateway.csproj", "{E6FE5C8E-FCD4-490E-92A7-47054D7B9CBD}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
 		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(NestedProjects) = preSolution
+		{EF5F3165-6D06-4405-8032-44218876B747} = {6508A55B-10A0-42F2-B98A-74601DF80515}
+		{B6FBD397-5122-4925-9ACC-500422A6B2BE} = {C776807D-BB8D-4808-8BD4-CF253576A76C}
+		{E6FE5C8E-FCD4-490E-92A7-47054D7B9CBD} = {EA070D8B-B972-4734-81AA-A8440CD44E22}
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{EF5F3165-6D06-4405-8032-44218876B747}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{EF5F3165-6D06-4405-8032-44218876B747}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{EF5F3165-6D06-4405-8032-44218876B747}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{EF5F3165-6D06-4405-8032-44218876B747}.Release|Any CPU.Build.0 = Release|Any CPU
+		{B6FBD397-5122-4925-9ACC-500422A6B2BE}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{B6FBD397-5122-4925-9ACC-500422A6B2BE}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{B6FBD397-5122-4925-9ACC-500422A6B2BE}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{B6FBD397-5122-4925-9ACC-500422A6B2BE}.Release|Any CPU.Build.0 = Release|Any CPU
+		{E6FE5C8E-FCD4-490E-92A7-47054D7B9CBD}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{E6FE5C8E-FCD4-490E-92A7-47054D7B9CBD}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{E6FE5C8E-FCD4-490E-92A7-47054D7B9CBD}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{E6FE5C8E-FCD4-490E-92A7-47054D7B9CBD}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 EndGlobal

@@ -1,4 +1,4 @@
-namespace Article.Api.Endpoints.Internal;
+namespace Write.Api.Endpoints.Internal;
 
 public interface IEndpoints
 {
