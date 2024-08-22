@@ -1,7 +1,7 @@
 {
   "Routes": [
     {
-      "DownstreamPathTemplate": "/{everything}",
+      "DownstreamPathTemplate": "/api/{everything}",
       "DownstreamScheme": "https",
       "SwaggerKey": "article",
       "DownstreamHostAndPorts": [
@@ -10,7 +10,7 @@
           "Port": "5001"
         }
       ],
-      "UpstreamPathTemplate": "/article/{everything}",
+      "UpstreamPathTemplate": "/article-gate/{everything}",
       "UpstreamHttpMethod": [
         "GET",
         "POST",

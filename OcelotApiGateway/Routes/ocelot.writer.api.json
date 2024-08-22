@@ -10,7 +10,7 @@
           "Port": "5002"
         }
       ],
-      "UpstreamPathTemplate": "/api/writer/{everything}",
+      "UpstreamPathTemplate": "/writer-gate/{everything}",
       "UpstreamHttpMethod": [
         "GET",
         "POST",
