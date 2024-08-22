@@ -1,0 +1,37 @@
+{
+  "SwaggerEndPoints": [
+    {
+      "Key": "gateway",
+      "TransformByOcelotConfig": false,
+      "Config": [
+        {
+          "Name": "gateway",
+          "Version": "1.0",
+          "Url": "https://localhost:5003/swagger/v1/swagger.json"
+        }
+      ]
+    },
+    {
+      "Key": "Article.Api",
+      "TransformByOcelotConfig": true,
+      "Config": [
+        {
+          "Name": "Article.Api",
+          "Version": "1.0",
+          "Url": "https://localhost:5001/swagger/v1/swagger.json"
+        }
+      ]
+    },
+    {
+      "Key": "writer",
+      "TransformByOcelotConfig": true,
+      "Config": [
+        {
+          "Name": "Writer.API",
+          "Version": "1.0",
+          "Url": "https://localhost:5002/swagger/v1/swagger.json"
+        }
+      ]
+    },
+  ]
+}
