@@ -1,0 +1,30 @@
+{
+  "SwaggerEndPoints": [
+    {
+      "Key": "writer",
+      "Config": [
+        {
+          "Name": "Writer API",
+          "Version": "v1",
+          "Service": {
+            "Name": "writer",
+            "Path": "/swagger/v1/swagger.json"
+          }
+        }
+      ]
+    },
+    {
+      "Key": "article",
+      "Config": [
+        {
+          "Name": "Article API",
+          "Version": "v1",
+          "Service": {
+            "Name": "article",
+            "Path": "/swagger/v1/swagger.json"
+          }
+        }
+      ]
+    }
+  ]
+}

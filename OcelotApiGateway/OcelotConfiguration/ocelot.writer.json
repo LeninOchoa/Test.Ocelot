@@ -1,0 +1,11 @@
+{
+  "Routes": [
+    {
+      "DownstreamPathTemplate": "/api/{everything}",
+      "ServiceName": "writer",
+      "UpstreamPathTemplate": "/writer-gate/{everything}",
+      "UpstreamHttpMethod": [ "Get", "Post", "Put", "Delete","Options" ],
+      "SwaggerKey": "writer"
+    }
+  ]
+}
